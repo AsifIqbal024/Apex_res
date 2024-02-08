@@ -1,0 +1,503 @@
+.container1 {
+    height: 250px;
+    width: 100%;
+    background-image: url(./Media/ApexBanner.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav1 {
+    background-color: white;
+    color: black;
+    font-size: small;
+    padding: 10px 100px 10px 10px;
+    text-align: right;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+}
+.nav1mark {
+    padding: 0px 15px;
+}
+.nav2 {
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.bar {
+    display: none;
+}
+.nav2:hover {
+    background-color: white;
+    color: black;
+}
+.aa:hover {
+    text-decoration: underline;
+}
+.bb:hover {
+    text-decoration: underline;
+}
+.cc:hover {
+    text-decoration: underline;
+}
+.dd:hover {
+    text-decoration: underline;
+}
+.ee:hover {
+    text-decoration: underline;
+}
+.ff:hover {
+    text-decoration: underline;
+}
+.nav2left {
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 400;
+}
+.nav2right {
+    padding-right: 100px;
+}
+.nav2lefttxt {
+    padding: 0 6px;
+}
+.main {
+    color: white;  
+    text-align: center;
+    margin-top: 40px;
+}
+.btn {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 150px;
+    height: 40px;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.txt {
+    width: 300px;
+}
+.ln1 {
+    font-size: 40px;
+}
+.layout {
+    background-color: #191919;
+    width: 100%;
+    height: 700px;
+    color: white;
+    z-index: -2;
+}
+.line1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+.line2 {
+    font-size: 15px;   
+}
+.buttons {
+    margin-top: 80px;
+}
+.layoutt {
+    margin: 0 0 0 200px;
+    padding-top: 70px;
+}
+.img {
+    position: absolute;
+    top: 620px;
+    left: 215px;
+    z-index: 2;
+}
+.video {
+    position: absolute;
+    top: 160px;
+    left: 950px;
+    z-index: 1;
+}
+.icn {
+    margin: 15px 10px;
+}
+.contents {
+    display: inline-flex;
+    margin: 5px 60px;
+    padding: 30px;
+}
+.itm {
+    width: 410px;
+    margin: 0 10px
+    
+}
+.rrr {
+    display: flex;
+}
+.zz {
+    color: black;
+    display: block;
+    padding: 2px 15px;
+    font-size: large;
+}
+.name {
+    font-weight: 900;
+}
+/* .bnr {
+    position: relative;
+} */
+.banner {
+    background-image: url(./Media/Bnr1.png);
+    position: relative;
+}
+.moochie-logo {
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+.desc1 {
+    position: absolute;
+    bottom: 350px;
+    right: 260px;
+}
+.desc2 {
+    position: absolute;
+    bottom: 300px;
+    right: 260px;
+}
+.desc3 {
+    position: absolute;
+    bottom: 200px;
+    right: 260px;
+}
+.L1 {
+    display: block;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+}
+.L2 {
+    display: block;
+    color: white;
+    font-size: 25px;
+    font-weight: 250;
+}
+.btn_shop_now {
+    height: 45px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn_shop_now:hover {
+    background-color: black;
+    color: white;
+}
+.title {
+    color: orangered;
+}
+.bor {
+    position: relative;
+    height: 500px;
+    text-align: center;
+    padding-top: 0.5px;
+}
+.title::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 60%;
+    top: 40px;
+    right: 20%;
+    border: 1px solid dodgerblue;
+    border-bottom: 0px;
+    z-index: -1;
+}
+.span {
+    background-color: white;
+    padding: 15px;
+}
+.bor::after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 60%;
+    bottom: 40px;
+    right: 20%;
+    border: 1px solid dodgerblue;
+    border-top: 0px;
+    z-index: -1;
+}
+.item {
+    display: inline;
+    width: 600px;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+.name {
+    display: block;
+    font-weight: 600;  
+    font-size: 25px;
+}
+.price {
+    font-size: 20px;
+}
+.contents {
+    display: flex;
+    padding: 0 px;
+    padding-bottom: 50px;
+}
+.container {
+    padding: 0 360px;
+}
+.promo {
+    margin: 5px 15px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.promo1 {
+    position: relative;
+}
+.promo2 {
+    position: relative;
+}
+.promo3 {
+    position: relative;
+}
+.promo_txt {
+    position: absolute;
+    bottom: 10px;
+    width: 550px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 25px;
+    background-color: white;
+    bottom: -40px;
+}
+.pro {
+    margin: 0 10px;
+}
+.txtln1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+.txtln2 {
+    font-size: 20px;
+}
+.bottom {
+    margin: 80px 0;
+    padding: 0 100px;
+    border-top: 1px solid rgb(230, 215, 215);
+    border-bottom: 1px solid rgb(230, 215, 215);
+}
+.shipping {
+    text-align: center;
+    justify-items: center;
+}
+.ft {
+    display: block;
+    text-align: center;
+}
+.footer , .second_footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footera-a {
+    font-size: 20px;
+}
+.footera-b {
+    font-size: 15px;
+}
+.socialimg {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_media {
+    display: block;
+    text-align: center;
+}
+.sc {
+    margin: 5px;
+}
+.shipping , .deals , .rewards , .social_media {
+    width: 25%;
+    padding: 5px 10px;
+}
+.shipping {
+    border-right: 1px solid rgb(230, 215, 215);
+}
+.deals {
+    border-right: 1px solid rgb(230, 215, 215);
+}
+.rewards {
+    border-right: 1px solid rgb(230, 215, 215);
+}
+.footerimg {
+    padding-left: 170px;
+}
+.second_footer {
+    margin-top: 30px;
+}
+.inptmail {
+    height: 30px;
+    width: 250px;
+    margin-left: 40px;
+}
+.bton {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 50px;
+    margin-left: -5px;
+    border: 1px solid;
+}
+.bton:hover {
+    background-color: white;
+    color: black;
+}
+.scft {
+    width: 25%;
+}
+.about_apex {
+    list-style: none;
+    text-align: center;
+}
+.help {
+    list-style: none;
+    text-align: center;
+}
+.about_apex_title {
+    margin-left: 210px;
+}
+.help_title {
+    margin-left: 40px;
+}
+li a {
+    color: black;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.partner {
+    justify-items: center;
+    align-items: center;
+    margin-left: 60px;
+}
+.abs_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100VW;
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 1200px) {
+    .nav1 {
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+    }    
+    .nav2 {
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .nav2right {
+        display: none;
+    }
+    .nav2left {
+        padding: 15px 0;
+        justify-content: center;
+    }
+    .nav2lefttxt {
+        display: inline-block;
+    }
+    .bar {
+        display: block;
+        padding-right: 50px;
+    }
+    .img {
+        display: none;
+    }
+    .media {
+        justify-content: center;
+        justify-items: center;
+    }
+    .video {
+        position: static;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+        display: block;
+        justify-content: center;
+        width: 90VW;
+    }
+    .layoutt {
+        margin: 0 0 0 0;
+        padding-top: 70px;
+        justify-content: center;
+        text-align: center;
+    }
+    .br {
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .nav1 {
+        background-color: lightcoral;
+        color: black;
+        text-align: center;
+        padding: 15px 0;
+    }    
+    .nav2 {
+        justify-content: center;
+    }
+    .logo {
+        display: none;
+    }
+    .nav2right {
+        display: none;
+    }
+    .nav2left {
+        padding: 15px 0;
+        justify-content: center;
+    }
+    .nav2lefttxt {
+        display: inline-block;
+    }
+    .bar {
+        display: block;
+        padding-right: 50px;
+    }
+    .img {
+        display: none;
+    }
+    .media {
+        justify-content: center;
+        justify-items: center;
+    }
+    .video {
+        position: static;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+        display: block;
+        justify-content: center;
+        width: 90VW;
+    }
+    .layoutt {
+        margin: 0 0 0 0;
+        padding-top: 70px;
+        justify-content: center;
+        text-align: center;
+    }
+    .br {
+        display: none;
+    }
+}
